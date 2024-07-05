@@ -46,7 +46,7 @@ const about = () => {
         <meta name="description" content="this is my about page" />
       </Head>
       <Layout>
-      <main className="flex sm:-ml-10 sm:w-[70vw] w-full items-center justify-center flex-col sm:-mt-16">
+      <main className="flex -ml-10 sm:w-[70vw] w-full items-center justify-center flex-col sm:-mt-16">
         <AnimatedText
           text={"Passion Fuels Purpose!"}
           className="text-6xl sm:text-3xl justify-center items-center text-center mb-16 sm:mb-10"
