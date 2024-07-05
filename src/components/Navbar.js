@@ -172,22 +172,21 @@ const Navbar = () => {
               />
             </nav>
             <nav className="flex gap-4">
-              <motion.a
-                whileHover={{ y: -5 }}
+              <a
                 target="_blank"
                 href={"https://linkedin.com/in/salmanahmad890"}
                 className="w-8 h-8"
               >
                 <LinkedInIcon />
-              </motion.a>
-              <motion.a
-                whileHover={{ y: -5 }}
+              </a>
+              <a
+
                 target="_blank"
                 href={"https://github.com/Salmanlaw890"}
                 className="w-8 h-8"
               >
                 <GithubIcon />
-              </motion.a>
+              </a>
 
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
