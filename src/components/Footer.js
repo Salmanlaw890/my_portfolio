@@ -47,13 +47,13 @@ const Footer = () => {
                 <p className="w-[30px] h-[30px] text-amber-400 text-2xl sm:text-xl font-bold" >
                   <FaPhoneAlt />
                 </p>
-                <h1 className="text-dark text-xl sm:text-sm font-bold">+92-341-8792957</h1>
+                <h1 className="text-dark text-xl sm:text-sm font-bold">+92 341 8792957</h1>
               </li>
               <li className="flex gap-3">
                 <p className="w-[20px] h-[20px] text-amber-400 text-2xl sm:text-xl font-bold">
                   <BiLogoGmail />
                 </p>
-                <h1 className="text-blue-500 text-xl sm:text-sm font-bold">salmanlaw890@gmail.com</h1>
+                <h1 className="text-blue-500 text-xl sm:text-lg font-bold">salmanlaw890@gmail.com</h1>
               </li>
             </ul>
           </div>
