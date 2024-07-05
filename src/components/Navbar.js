@@ -147,7 +147,7 @@ const Navbar = () => {
           <motion.div
             initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
             animate={{ scale: 1, opacity: 1 }}
-            className="flex flex-col z-30 min-w-[70vw] justify-between items-center fixed top-1/3 left-1/2 -translate-x-[50%] -translate-y-1/2  bg-dark/40  dark:bg-light/75 rounded-lg backdrop-blur-md p-20"
+            className="flex flex-col z-30 min-w-[70vw] justify-between items-center fixed top-1/3 left-1/2 -translate-x-[50%] -translate-y-1/2  bg-dark/40  dark:bg-light/75 dark:text-light rounded-lg backdrop-blur-md p-20"
           >
             <nav className=" flex flex-col">
               <CostumMobileLinks
