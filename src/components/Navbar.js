@@ -122,6 +122,8 @@ const Navbar = () => {
             </motion.a>
             <motion.a
               whileHover={{ y: -5 }}
+              initial={{ scale: 0 , rotate:360 }}
+              animate={controls}
               target="_blank"
               href={"https://github.com/Salmanlaw890"}
               className="w-8 h-8"
@@ -171,6 +173,8 @@ const Navbar = () => {
             </nav>
             <nav className="flex gap-4">
               <motion.a
+              initial={{ scale: 0 , rotate:360 }}
+              animate={controls}
                 whileHover={{ y: -5 }}
                 target="_blank"
                 href={"https://linkedin.com/in/salmanahmad890"}
@@ -179,6 +183,8 @@ const Navbar = () => {
                 <LinkedInIcon />
               </motion.a>
               <motion.a
+              initial={{ scale: 0 , rotate:360 }}
+              animate={controls}
                 whileHover={{ y: -5 }}
                 target="_blank"
                 href={"https://github.com/Salmanlaw890"}
