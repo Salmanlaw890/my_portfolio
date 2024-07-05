@@ -112,7 +112,7 @@ const Navbar = () => {
           <nav className="flex gap-4 lg:hidden">
             <motion.a
               whileHover={{ y: -5 }}
-              initial={{ scale: 0 , rotate:360 }}
+              initial={{ scale: 0, rotate: 360 }}
               animate={controls}
               target="_blank"
               href={"https://linkedin.com/in/salmanahmad890"}
@@ -122,7 +122,7 @@ const Navbar = () => {
             </motion.a>
             <motion.a
               whileHover={{ y: -5 }}
-              initial={{ scale: 0 , rotate:360 }}
+              initial={{ scale: 0 }}
               animate={controls}
               target="_blank"
               href={"https://github.com/Salmanlaw890"}
@@ -149,7 +149,7 @@ const Navbar = () => {
           <motion.div
             initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
             animate={{ scale: 1, opacity: 1 }}
-            className="flex flex-col z-30 min-w-[70vw] justify-between items-center fixed top-1/3 left-1/2 -translate-x-[50%] -translate-y-1/2  bg-dark/40  dark:bg-light/75 text-light rounded-lg backdrop-blur-md p-20"
+            className="flex flex-col z-30 min-w-[70vw] justify-between items-center fixed top-1/3 left-1/2 -translate-x-[50%] -translate-y-1/2  bg-dark/40  dark:bg-light/75 dark:text-light rounded-lg backdrop-blur-md p-20"
           >
             <nav className=" flex flex-col">
               <CostumMobileLinks
@@ -173,8 +173,6 @@ const Navbar = () => {
             </nav>
             <nav className="flex gap-4">
               <motion.a
-              initial={{ scale: 0 , rotate:360 }}
-              animate={controls}
                 whileHover={{ y: -5 }}
                 target="_blank"
                 href={"https://linkedin.com/in/salmanahmad890"}
@@ -183,8 +181,6 @@ const Navbar = () => {
                 <LinkedInIcon />
               </motion.a>
               <motion.a
-              initial={{ scale: 0 , rotate:360 }}
-              animate={controls}
                 whileHover={{ y: -5 }}
                 target="_blank"
                 href={"https://github.com/Salmanlaw890"}
